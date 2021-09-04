@@ -1,4 +1,6 @@
-#Self Portait#
+**Self Portait**
 ![portrait](Self_Portrait.jpg)
+In this assignment we were given the task of creating a self portrait. this task proved to be a lot of fun and a good way for me learn the basics of processing. 
+The task itself was not difficult and simply a self-exploration of the various basic commands to be used in processing. I faced 2 major challenges in creating the self-portrait. The first challenge was to make sure I was using the correct structure in the tags for each shape. For example, realising that I need to provide 6 values when drawing a triangle, 6 values when drawing an arc, 4 values for a line etc and to understand what each value meant. This was certainly challenging in the beginning but got easier as I started to get the hang of it. The second challenge was to figure out what values to assign so that the shapes were placed on the canvas, exactly where I wanted them. For this I used the mouse position technique taught in class and eventually deleted that piece of code after I was done with the portrait. One minor hurdle in my submission also occured when I was trying to attach the image to my readme file. I would keep saying foldername/file.jpg and would keep getting an error. It was only a few minutes later that I realised that the readme and the image were in the same folder, thus I simply had to type /file.jpg to insert my image in the readme.Overall, it was an enjoyable and enriching assignment allowing me to begin my processing journey. 
 
 
