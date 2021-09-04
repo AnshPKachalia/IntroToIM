@@ -1,3 +1,3 @@
-![portrait](Portrait.jpg)
+![portrait](Self_Portrait.jpg)
 
 
