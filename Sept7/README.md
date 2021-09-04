@@ -1,3 +1,3 @@
-![](Sept7/Portrait.jpg)
+![](Portrait.jpg)
 
 
