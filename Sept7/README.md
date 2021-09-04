@@ -1,3 +1,3 @@
-![portrait](https://github.com/AnshPKachalia/IntroToIM/Sept7/Portrait.jpg?raw=true)
+![portrait](/AnshPKachalia/IntroToIM/Sept7/Portrait.jpg)
 
 
