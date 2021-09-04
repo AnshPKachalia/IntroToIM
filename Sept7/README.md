@@ -1,3 +1,3 @@
-![Portrait](IntroToIM/Sept7/Self Portait.jpg)
+![](IntroToIM/Sept7/Self Portait.jpg)
 
 
