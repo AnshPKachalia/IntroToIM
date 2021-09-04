@@ -1,3 +1,3 @@
-![](https://github.com/AnshPKachalia/IntroToIM/Sept7/Self Portait.jpg)
+![](https://github.com/AnshPKachalia/IntroToIM/Sept7/Portrait.jpg)
 
 
