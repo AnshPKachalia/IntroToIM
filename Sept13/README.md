@@ -1,3 +1,3 @@
 # Generative ArtWork #
-![](/artwork.jpg)
+![](artwork.jpg)
 
