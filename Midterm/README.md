@@ -7,15 +7,15 @@ This is a game that all of us must have come across at some time when our intern
 ## The Game
 ### Introscreen
 The introscreen was basic and did not have too many design elemants. It was left simple to mimic the actual screen that shows up on google when the internet runs out.
-(Insert intro screen)
+![](intro.png)
 
 ### Game screen
 The game screen followed a similar design as the actual game along with some extra decorations that I added such as the clouds and sun/moon. 
-(Insert game screen)
+![](game.png)
 
 ### End Screen
 The end screen was basic and simply gave instrcutions on restarting the game. It purposely did not show the final score of the participant as I for one dislike competition in games and simply play them to relax. 
-(Insert end screen)
+![](end.png)
 
 ## Challenges and how they were solved:
 * Dino Spritesheet not getting placed in the correct spot: Using an inclass example for motion using sketches from a sprite sheet, I tried to give motion to my running dinosaur. But in doing so, I relaized that trying to mimic the professor's code allowed me to create a short moving animation but because I did not understand the code properly, I was not able to change it to suit my needs. My dinosaur was not being displayed where i wanted it to and I could not seem to figure out how to solve it. So I decided to code it, how I understand it. I chose to take a simpler approach and just use one static image of the dinosaur.
