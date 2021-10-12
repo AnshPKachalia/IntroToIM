@@ -2,7 +2,7 @@
 ## Introduction
 This is a game that all of us must have come across at some time when our internet connection is not working. We get too lazy to restart the connection, so we simply sit and play this. Yes! It's the dinojump game made by Sebastien Garbriel in 2014. It is an endless runner game and consists of a dinosaur running and jumping over and ducking under obsstacles. When, I started making the game, I thought it was fairly simplistic and matched my level of amateur coding. Only when I started making and runnning into multiple issues, I tried to simplify it by removing certain features to ensure that the basic structure of the game was still maintained. I kept a dairy to ensure I was planning properly and keeping track of the progress and problems I faced every coding session.
 ## Diary of work
-![](im%20diary.pdf))
+https://github.com/AnshPKachalia/IntroToIM/blob/main/Midterm/im%20diary.pdf
 
 ## The Game
 ### Introscreen
