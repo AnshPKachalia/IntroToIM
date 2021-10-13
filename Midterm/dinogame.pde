@@ -1,9 +1,10 @@
 //Ansh Kachalia
 //This is the dino game, which is popularly seen when the internet goes out. 
-//This is a simplifies attempt at the game and does not account for certain features that exist in the actual game.
+//This is a simplified attempt at the game and does not account for certain features that exist in the actual game.
 //Sources and inspirations:
 //https://github.com/yjqiang/chrome_dinosaur 
 //https://thecodingtrain.com/CodingChallenges/147-chrome-dinosaur.html
+//https://forum.processing.org/
 
 
 //Dino Game
@@ -12,8 +13,7 @@ SoundFile myJumpSound; //Creating sound file
 //Creating global variables for required images, floats and booleans
 PImage dinointro;
 PImage clouds;
-//PImage cactusimage[]=new PImage[3];
-PImage cactusmain;
+PImage cactusimage[]=new PImage[3];
 boolean introscreen=true;
 boolean startgame=false;
 boolean dead=false;
@@ -22,11 +22,8 @@ PImage dinomain;
 float score;
 
 void setup() {
-  //fullScreen(); using command to find confines ofthe screen
-  // println(width);
-  //println(height);
   background(32, 33, 36);
-  size(3800, 2100, P2D); //Made size just lesser than fullscreen because its difficult to find the minimze and close buttons on topright in full screen mode
+  size(3800, 2100,P2D); //Made size just lesser than fullscreen because it is difficult to find the minimze and close buttons on topright in full screen mode
   hint(ENABLE_KEY_REPEAT);// Prevents user from holding the key in keypressed method
   myJumpSound = new SoundFile(this, "sprites_jump.wav");
 }
@@ -84,7 +81,7 @@ class dinoRunning {
     if (keyPressed) {
       if (key==' ') {
         if (myJumpSound.isPlaying()==false) { //Fixing choppy sound
-          yspeed=-60; //Reduces y by 60 per while the spacebar is pressed. Helps dino jump over obstacles
+          yspeed=-100; //Reduces y by 100 while the spacebar is pressed. Helps dino jump over obstacles
           myJumpSound.play();//Plays sounds only when space is pressed
           println("jumping");//Checking if jump was called
         }
@@ -94,28 +91,28 @@ class dinoRunning {
 
 
   void dinomove() {
-    image(dinomain, 800, y, 250, 250);
+    image(dinomain, 50  , y, 250, 250);
     y+=yspeed;
-    yspeed+=100;
+    yspeed+=100;// downard motion after jump
     y=constrain(y, 950, 1450);//Prevents participant from holding spacebar to make dino levitate
   }
 
   void collision() { //Checks for collision
-    if (dist( dinorun.x,dinorun.y,obstacles.x,obstacles.y)<150) { // Using dist between centre of both images to check whether collision occured
+    if (dist( dinorun.x,dinorun.y,obstacles.x,obstacles.y)<200) { // Using dist between centre of both images to check whether collision occured
       dead=true;//Sets boolean as true so it can be used to trigger a new function
+    
     }
 
     if (dead==true) { //Triggering endgame function
       endgame();
-      println("end");
+      println("end");// checking is endgame was triggered
     }
   }
 }
 
 //Cactus (Obstacles)
 class cactus {
-  float x;
-  float y;
+  float x,y;
   int index;
   cactus(float xposcact, float yposcact) {
     x=xposcact;
@@ -123,47 +120,40 @@ class cactus {
   }
 
   void drawcactus() {
-    //for (int i=0; i<cactusimage.length; i++) {
-    //  cactusimage[i]=loadImage("cactussingle"+i+".png"); //Making an array of images and using 3 different cactus images
-    //}
-    cactusmain=loadImage("cactussingle1.png");
+    for (int i=0; i<cactusimage.length; i++) {
+      cactusimage[i]=loadImage("cactussingle"+i+".png"); //Making an array of images and using 3 different cactus images
+    }
   }
 
   void cactusmove() {
-    //for (int index=0; index<3; index++) {
-    x=x-100; //Changing x value so the obstacle moves closer to the dino
+    for (int index=0; index<3; index++) {
+    x=x-50; //Changing x value so the obstacle moves closer to the dino
     y=1525;
-    image(cactusmain, x, y, 150, 200); //Displaying the different images
-    //}
-    if (x<20) {
+    image(cactusimage[index], x, y, 150, 200); //Displaying the different images
+    }
+    println("cactus at (x,y)=("+x+","+y+")");//Finding position so it cn be used for colliision mechanism
+    if (x<10) {// Helps respawn the obstacle once it runs out of the screen
       x=3000;
     }
   }
 }
-//Time used as a score count
 
-class scorecounter {
-  float seconds;
+//Keeping Score
 
-  scorecounter(float tempseconds) {
-    seconds=tempseconds;
+  void countup(){
+    if(dead==false){
+      //score=0;
+    score++; //Score increases incrementally 
+  text (score,100,200);// Displays score on top left corner
   }
-  float gettime() {
-    return(score);
+  else if (dead==true){
+   score=score+0;
   }
-  void settime(float tempseconds) {
-    seconds=tempseconds;
   }
-  void countup() { 
-    score += seconds; //Increases with seconds
 
-    text(score, 100, 200);
-   
-  }
-}
 
 //Clouds
-class clouds {
+class clouds { //Just decoration pieces because the screen looked really empty
   float x, y, xsize, ysize;
   clouds(float xtemp, float ytemp, float xsizetemp, float ysizetemp) {
     x=xtemp;
@@ -175,46 +165,43 @@ class clouds {
     clouds=loadImage("cloud.png");
     image(clouds, x, y, xsize, ysize);// Easier to write cloud 5 times than create an array
     image(clouds, x+1000, y, xsize, ysize);
-    image(clouds, x+1400, y+500, xsize, ysize);
     image(clouds, x+2000, y+300, xsize, ysize);
     image(clouds, x+400, y+400, xsize, ysize);
+    circle(x-400,y,200);
+    fill(255,255,255);
   }
 }
 
 // End Game
 void endgame() {
   background(32, 33, 36);
-  text("Game over", 500, 500);
-  text("Press R to replay the game", 600, 700); //Instructions to start the game again
-
-
+  textSize(50);
+  text("Game over", width/2, 1000);
+  text("Press R to replay the game", width/2, 1100); //Instructions to start the game again
+text("Your total score is"+ score,width/2,1200);
   if (key=='r') {
-    startgame=false; //Making booleans negative so that begingame() gets triggered
-    dead=false;
-    println(key);
+    startgame=false; //Making booleans false so that begingame() gets triggered
+    dead=false; ////Making booleans false so that begingame() gets triggered
+    score=0;// Resetting score
+    println(key);// Checking for correct key being pressed
   }
 }
 
 
-
-
-
 dinoRunning dinorun=new dinoRunning(10, 1450, 15);
 cactus obstacles=new cactus(3000, 1500);
-scorecounter totalscore=new scorecounter(1);
 clouds backdrop=new clouds(1000, 400, 300, 200);
 
 
 //Calling all functions
 void begingame() {
   background(32, 33, 36);//Resets the background
-  dinorun.drawdino();//Calling the dino drawing function
+  dinorun.drawdino();
   dinorun.dinomove();
   dinorun.dinojump();
   obstacles.drawcactus();
-  totalscore.settime(1);
-  totalscore.countup();
   obstacles.cactusmove();
   dinorun.collision();
   backdrop.drawcloud();
+  countup();
 }
