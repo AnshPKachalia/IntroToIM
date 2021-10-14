@@ -25,4 +25,4 @@ The end screen was basic and simply gave instrcutions on restarting the game.
 * Lastly, the most time consuming and unforeseen problem, the collision problem. Being able to respawn the obstacles, I had somehow lost the ability to detect collision, a fucntion that was working during my last coding session. This seemed strange as on face value they seem like two unrelated functions. Even if there was a collision detected, the game would not end until the cactus had hit the lft end of the screen. The professor also looked into this problem and could not figure out why this happened. In the end I decided to use a hack which did not solve the problem but hid it in a way. I decided to simply move the dinosaur to the extreme left and so when the collision occured, the obstacle would already be at the extreme left. 
 
 ## Overall
-This was a fun and suprisingly challenging project. I certainly helped me understand aspects of coding I took for granted and taught me a lot about debugging.
+This was a fun and suprisingly challenging project. It certainly helped me understand aspects of coding I took for granted and taught me a lot about debugging.
