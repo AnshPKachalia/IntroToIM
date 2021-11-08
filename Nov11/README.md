@@ -22,6 +22,7 @@ I combined my favourtie exmaples and added some randomeness for fun and tried to
 The final product was an unplanned output, in the sense that I went ahead with whatever numbers felt right and just saw what output they produced.
 
 ### Problem
-I had to deal with one major problem. My arduino app was failing to upload the code to the arduino board. 
+I had to deal with one major problem. My arduino app was failing to upload the code to the arduino board. It was working and suddenly stopped working. then failed to upload any code. I turned towards the discord group for help and the professor shared a list of a few things to try. I thought I had a short ciruit so I tried to remove each item one by one and reupload the code, but that didnt work. Then I tried restarting everything and uplugging everything that too did not seem to work. Then I followed the list given by the professor, step by step. One of the suggestions was to change the usb port and that did the trick for me.
+
 
 
