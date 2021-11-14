@@ -4,26 +4,24 @@
 ### Photograph 
 This is what the circuit looked like:
 
-![]()
+![](20211114_110526.jpg)
 
 ###Schematic
 This is the drawing of the circuit
-![](20211108_171123.jpg)
+![](20211114_124721.jpg)
 
 ### Concept
-In this project, I was trying to use a digital and analog input and use information from them to control 2 LEDs in a digital and analog way. To do so, I took help from my previous project, previous in class exmaples and some creative thinking. For the digital input I used a push button and used it to control a Red LED digitally by switching it on and off in a certain patter so that it says 'Hi' in morse code. For the analog input I used an LDR. Based on the value of the LDR, I created 2 conditions. If the LDR value was above a certain threshold, it triggered a fading fucntion in one of the LEDs, if the LDR value was below a certain threshold, it created a random pattern of blinking between the two LEDs such that the delay was dependent on the LDR value. The project was simple and simply helped me better understand the difference between analog and digital inputs and outputs.
+In this project, I was trying to use a digital and analog input and use information from them to control a buzzer. The digital input consists of three buttons and the analog input is the potentiometer. Each button is associated with a different frequency and when you press it the buzzer plays the frequency. As the potentiometer reading increases or decreases, it changes the frequency associated with each button and thus a combination of both can be used to create sound using the buzzer that will act as an instrument. 
 
 ### Video of the project 
-https://drive.google.com/file/d/1zgE1FtU89ZQeQ2OjerGKoGOhjzhzbSes/view?usp=sharing
+https://drive.google.com/file/d/12qJgCm_LyZn3SsDbF2isngTdxE3jFiB5/view?usp=sharing
 
 ### My process
-First, I began to assemble the circuit based on the previous projects done in class. I simply aligned 2 LEDs, one button and one LDR in the circuit. <br> Then I used basic fucntions from the exmaples to test if everything had been connected correctly and was working. <br>
-Then, I began to think of the code and for inspiration I looked at previous class exmaples and selected my favourite ones <br>
-I combined my favourtie exmaples and added some randomeness for fun and tried to use the LDR value in a fun way <br>
-The final product was an unplanned output, in the sense that I went ahead with whatever numbers felt right and just saw what output they produced.
+First, I began to assemble the circuit based on the previous projects done in class. I aligned 3 buttons in the circuit <br> Then I used basic fucntions from the exmaples to test if everything had been connected correctly and was working. <br>
+Then, I did the same with the buzzer and the potentiometer until I had ensured that each component was connected properly and was working as I wanted it to <br>
+Then, I began to think of the code and for inspiration<br>
+I then decided to simply experiment with frequencies and finding chords that are used in my favourite songs. <br>
+I combined the chords and used my very limited musical knowledge to create an instrument<br>
 
 ### Problem
-I had to deal with one major problem. My arduino app was failing to upload the code to the arduino board. It was working and suddenly stopped working. then failed to upload any code. I turned towards the discord group for help and the professor shared a list of a few things to try. I thought I had a short ciruit so I tried to remove each item one by one and reupload the code, but that didnt work. Then I tried restarting everything and uplugging everything that too did not seem to work. Then I followed the list given by the professor, step by step. One of the suggestions was to change the usb port and that did the trick for me.
-
-
-
+I did not have any major problems in this assignment. I believe I had a little trouble remmebering how to place a potentiometer and buzzer correctly in a circuit, but I used the discord group for help on that. Above that my limited music knowledge proved to be a hindrance as I am sure I could have tweaked my project to account for various musical chords and played an actual song. But because I had no knowledge of chords or how to play songs, I stuck to a basic instrument that may or may not even sound right.  
