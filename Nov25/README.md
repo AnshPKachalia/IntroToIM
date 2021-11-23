@@ -5,21 +5,21 @@
 
 #### Schematic 
 
-![](20211123_.143858jpg)
+![](20211123_.143858.jpg)
 #### Video
 https://drive.google.com/file/d/1A6aTcZROffV8Du_RLpBKD_icu0Jwdtxs/view?usp=sharing
 #### Assignment 2
 #### Make something that controls the LED brightness from Processing
 
 #### Schematic 
-![](20211123_.143902jpg)
+![](20211123_.143902.jpg)
 #### Video
 https://drive.google.com/file/d/19rZRSm0t9GFZm8fdLhTW54cRZBW5hPsz/view?usp=sharing
 #### Assignment 3
 #### Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor
 
 #### Schematic 
-![](20211123_.143907jpg)
+![](20211123_.143907.jpg)
 #### Video
 https://drive.google.com/file/d/19k5lqG6s0dhS1Hg0o8QdNW0agwbToDlV/view?usp=sharing
 
