@@ -19,4 +19,5 @@
     <li> Made the introscreen, with the original pong text and set it such that pressing space triggers the main game
       <li> Made changes to speed and bounce mechanisms
         <li> Facing a lag issue. More than one ball on the screen at any point. Can lead to user confusion. Must find a fix. Asked on the discord channel
+          <li> Problem illustrated in this video: https://drive.google.com/file/d/1Qxkt9FsCjmaRPXf9MspU0YoPL5xJ3F3M/view?usp=sharing
           </ul>
