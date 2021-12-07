@@ -28,13 +28,14 @@
     <li> Attended a soldering workshop
       <li> Realized that I needed bigger potentiometers for my game. So I borrowed some from the lab and went after hours to the open soldering stations to solder wires onto the potentimeter.
         <li> Soldering was really fun and definitelty a new skill that I had learnt. I attended the workshop just for fun, but I am glad that I was able to apply my learnings to better my project
+          ![20211207_130742](https://user-images.githubusercontent.com/71828670/145003005-039a6acb-a437-4fcb-a674-5ce0d3b7cc43.jpg)
         </ul>
         
 ## Day 5
 <ul>
   <li> Connected my new potentiometers to the circuit to make sure that had been soldered properly and created no short circuits.
       <li> Trouble receiving information from two potentiometers and using them to control each paddle separately
-        <li> Suspected short circui, but then used each potentiometer individually and it worked. Realized that there must be some code error
+        <li> Suspected short circuit, but then used each potentiometer individually and it worked. Realized that there must be some code error
           <li> Asked to discuss doubt with professor in classs
             </ul>
             
@@ -49,4 +50,4 @@
               </ul>
     
      
-![20211207_130742](https://user-images.githubusercontent.com/71828670/145003005-039a6acb-a437-4fcb-a674-5ce0d3b7cc43.jpg)
+
