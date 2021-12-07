@@ -27,7 +27,8 @@
   <li> Got in touch with professor about lag issue. Learnt that it is an inherent issue that cannot really be solved.
     <li> Attended a soldering workshop
       <li> Realized that I needed bigger potentiometers for my game. So I borrowed some from the lab and went after hours to the open soldering stations to solder wires onto the potentimeter
+        </ul>
         Heres an image of my soldering work:
-        ![](20211207_130742.jpg)
-        
-        <li>
+       
+         ![](20211207_130742.jpg)
+     
