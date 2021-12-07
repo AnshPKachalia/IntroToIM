@@ -26,7 +26,27 @@
 <ul>
   <li> Got in touch with professor about lag issue. Learnt that it is an inherent issue that cannot really be solved.
     <li> Attended a soldering workshop
-      <li> Realized that I needed bigger potentiometers for my game. So I borrowed some from the lab and went after hours to the open soldering stations to solder wires onto the potentimeter
+      <li> Realized that I needed bigger potentiometers for my game. So I borrowed some from the lab and went after hours to the open soldering stations to solder wires onto the potentimeter.
+        <li> Soldering was really fun and definitelty a new skill that I had learnt. I attended the workshop just for fun, but I am glad that I was able to apply my learnings to better my project
         </ul>
-    ![](20211207_130742.jpg)
+        
+## Day 5
+<ul>
+  <li> Connected my new potentiometers to the circuit to make sure that had been soldered properly and created no short circuits.
+      <li> Trouble receiving information from two potentiometers and using them to control each paddle separately
+        <li> Suspected short circui, but then used each potentiometer individually and it worked. Realized that there must be some code error
+          <li> Asked to discuss doubt with professor in classs
+            </ul>
+            
+## Day 6 
+<ul>
+  <li>Explained problem in class. Realized that I was not sending the data from Arduino like I wanted to receive it in Processing. Had to add a comma in arduino to be able to read and split them in processing. Professor helped me figure that out
+    <li> Realized there was an issue with my collision mechanism as the ball was touching the bar but not bouncing off. Realized that I had to add y value of paddle plus width to make sure the correct edge of the paddle was checking for collision.
+      <li> Optimized end game page
+        <li> Wanted to add wind function such that the wind would be against the individual with a higher score
+          <li> Realized that I was not too comfortable with p-vectors and was not getting the desired change. Instead added a feature such that as an individual's score increases, their paddle size decreases, making it harder for them to win.
+            <li> Things left to work on: Optimize collision, set a function to restart the game, make an instruction page
+              </ul>
+    
      
+![20211207_130742](https://user-images.githubusercontent.com/71828670/145003005-039a6acb-a437-4fcb-a674-5ce0d3b7cc43.jpg)
