@@ -21,3 +21,13 @@
         <li> Facing a lag issue. More than one ball on the screen at any point. Can lead to user confusion. Must find a fix. Asked on the discord channel
           <li> Problem illustrated in this video: https://drive.google.com/file/d/1Qxkt9FsCjmaRPXf9MspU0YoPL5xJ3F3M/view?usp=sharing
           </ul>
+
+## Day 4
+<ul>
+  <li> Got in touch with professor about lag issue. Learnt that it is an inherent issue that cannot really be solved.
+    <li> Attended a soldering workshop
+      <li> Realized that I needed bigger potentiometers for my game. So I borrowed some from the lab and went after hours to the open soldering stations to solder wires onto the potentimeter
+        Heres an image of my soldering work:
+        ![](20211207_130742.jpg)
+        
+        <li>
