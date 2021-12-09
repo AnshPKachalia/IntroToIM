@@ -12,6 +12,7 @@ https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
 ## The game
 ### Introscreen
 This screen consisted of the title and instructions for the game and also triggered the background music. 
+!.[.]('introscreen.png')
 
 gamescreen and end screen screenshots- 1 line descriptions
 Challenges and solutions- 
