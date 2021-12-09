@@ -45,8 +45,17 @@
       <li> Optimized end game page
         <li> Wanted to add wind function such that the wind would be against the individual with a higher score
           <li> Realized that I was not too comfortable with p-vectors and was not getting the desired change. Instead added a feature such that as an individual's score increases, their paddle size decreases, making it harder for them to win.
-            <li> Things left to work on: Optimize collision, set a function to restart the game, make an instruction page
               </ul>
-    
+ ## Day 7- User Testing 
+ <ul>
+  <li> Used 3 suitemates for user testing
+    <li> Received a lot of useful feedback that I need to include
+      <ol>
+        <li> Make a stable support for the potentiometers so its easier for individuals to keep it on a table and play
+          <li> Make an instruction page, informing users about the rules of the game
+            <li> Make an option to restart the game 
+      </ol>
+      </ul>
+      
      
 
