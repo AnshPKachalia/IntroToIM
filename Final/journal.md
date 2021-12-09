@@ -46,7 +46,7 @@
         <li> Wanted to add wind function such that the wind would be against the individual with a higher score
           <li> Realized that I was not too comfortable with p-vectors and was not getting the desired change. Instead added a feature such that as an individual's score increases, their paddle size decreases, making it harder for them to win.
               </ul>
- ## Day 7- User Testing 
+ ## Day 7
  <ul>
   <li> Used 3 suitemates for user testing
     <li> Received a lot of useful feedback that I need to include
