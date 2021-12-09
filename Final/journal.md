@@ -54,6 +54,7 @@
         <li> Make a stable support for the potentiometers so its easier for individuals to keep it on a table and play
           <li> Make an instruction page, informing users about the rules of the game
             <li> Make an option to restart the game 
+              <li> Collision mechanism is still a little glitchy
       </ol>
       </ul>
       
