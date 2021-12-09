@@ -11,7 +11,15 @@ In this game I used 2 potentiometers, to control two paddles on screen. The goal
 This screen consisted of the title and instructions for the game and also triggered the background music. 
 ![](introscreen.png)
 
-gamescreen and end screen screenshots- 1 line descriptions
+## Gamescreen
+This screen consisted of the balls, paddles and scorecounter. This was the main screen that users interacted with while playing the game.
+![](gamescreen.png)
+
+## Endscreen 
+This was the endscreen and conveyed who the winner was and how players can play the game again
+![](endscreen.png)
+
+
 Challenges and solutions- 
 Bounce Mechanism
 Effective Communication between Arduino and PRocessing (comma example), getting soldered potentiometers to work
