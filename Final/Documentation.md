@@ -7,7 +7,13 @@ In this game I used 2 potentiometers, to control two paddles on screen. The goal
 
 ## Diary
 I kept a log of my process and daily progress. The link to which is: 
-The game- Introscreen, gamescreen and end screen screenshots- 1 line descriptions
+https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
+
+## The game
+### Introscreen
+This screen consisted of the title and instructions for the game and also triggered the background music. 
+
+gamescreen and end screen screenshots- 1 line descriptions
 Challenges and solutions- 
 Bounce Mechanism
 Effective Communication between Arduino and PRocessing (comma example), getting soldered potentiometers to work
