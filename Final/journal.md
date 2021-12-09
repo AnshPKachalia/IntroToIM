@@ -59,6 +59,14 @@
                 <li> I should also add some music
       </ol>
       </ul>
-      
+   
+## Day 8
+<ul>
+  <li> Music Added
+    <li> Restart figured, facing an issue where the end screen was being trigerred directly after the introscreen post restrart. Realized I needed to reset player scores
+      <li> Colission mechanism better but still needs to be worked on
+        < li> Instruction page made
+          </ul>
+          
      
 
