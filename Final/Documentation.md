@@ -5,14 +5,11 @@ As a child, one of my fondest memories was to play the pong game with my brother
 I decied to stay true to the original game and have thus used the same font and colors. While, it may lead to the game being somewhat simplistic I did not want to takeaway from the nostalgia and thus, to add a layer of complexity I made certain tweaks that change the gameplay but not how the game looks. 
 In this game I used 2 potentiometers, to control two paddles on screen. The goal is to deflect the ball using your paddle and to not let it pass through. The first one to reach 5 points wins. To add some complexity and to make it more competitive, I have programmed it such that based on the score difference between the two players, the sizes of the paddles get adjusted to be able to inflict a disadvantage against the individual leading. 
 
-## Diary
-I kept a log of my process and daily progress. The link to which is: 
-https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
 
 ## The game
 ### Introscreen
 This screen consisted of the title and instructions for the game and also triggered the background music. 
-!.[.]('introscreen.png')
+![](introscreen.png)
 
 gamescreen and end screen screenshots- 1 line descriptions
 Challenges and solutions- 
@@ -26,6 +23,11 @@ New skills learnt and acquired
 Circuitry 
 Soldering 
 
+## Diary
+I kept a log of my process and daily progress. The link to which is: 
+https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
+circuit photo
+Schematic
 
 Overall
 
