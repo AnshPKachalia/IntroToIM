@@ -55,6 +55,7 @@
           <li> Make an instruction page, informing users about the rules of the game
             <li> Make an option to restart the game 
               <li> Collision mechanism is still a little glitchy
+                <li> I should also add some music
       </ol>
       </ul>
       
