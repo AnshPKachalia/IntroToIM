@@ -76,6 +76,7 @@
     <li> Made a holder for each of the potentiometers, so people can play properly
       <li> Finally figured out collision using online resources 
         <li> Conducted a little more user testing to see if the changes made were helpful or not
+          <li> Received feedback that I looks like 1, so changed that as the key for instructions. Also user said font is hard to read. 
           <li> Tidied up the code and documentation
             </ul>
             
