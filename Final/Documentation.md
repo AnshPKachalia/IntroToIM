@@ -51,11 +51,18 @@ Learnt how to solder and use it in my circuits
 I kept a log of my process and daily progress. The link to which is: 
 https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
 
-circuit photo
-Schematic
+## Circuit Photo
+![](circuit.jpg)
 
-Overall
+## Schematic
+![](schematic.jpg)
 
-Resources and links
+## Overall
+Overall, it was a great learning experience. I learnt a lot about arduino, processing and their effective communication. I also learnt how to solder and had fun while doing so. 
+
+## Resources and links
+https://happycoding.io/tutorials/processing/collision-detection
+https://www.free-fonts.com/tf-burko-bold
+https://en.wikipedia.org/wiki/Pong
 
 
