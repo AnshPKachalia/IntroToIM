@@ -57,6 +57,7 @@
             <li> Make an option to restart the game 
               <li> Collision mechanism is still a little glitchy
                 <li> I should also add some music
+                  <li> Paddle size is a little small. Making the game more difficult
       </ol>
       </ul>
    
@@ -66,7 +67,17 @@
     <li> Restart figured, facing an issue where the end screen was being trigerred directly after the introscreen post restrart. Realized I needed to reset player scores
       <li> Colission mechanism better but still needs to be worked on
         < li> Instruction page made
+          <li> Paddle Size increased
           </ul>
           
+ ## Day 9
+ <ul> 
+  <li> Last day today
+    <li> Made a holder for each of the potentiometers, so people can play properly
+      <li> Finally figured out collision using online resources 
+        <li> Conducted a little more user testing to see if the changes made were helpful or not
+          <li> Tidied up the code and documentation
+            </ul>
+            
      
 
