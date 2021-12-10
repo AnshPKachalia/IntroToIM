@@ -58,6 +58,7 @@
               <li> Collision mechanism is still a little glitchy
                 <li> I should also add some music
                   <li> Paddle size is a little small. Making the game more difficult
+                    <li> Users dont know which controller controls which paddle
       </ol>
       </ul>
    
@@ -68,6 +69,7 @@
       <li> Colission mechanism better but still needs to be worked on
         < li> Instruction page made
           <li> Paddle Size increased
+            <li> Colors added to paddles and controllers
           </ul>
           
  ## Day 9
