@@ -52,10 +52,12 @@ I kept a log of my process and daily progress. The link to which is:
 https://github.com/AnshPKachalia/IntroToIM/blob/main/Final/journal.md
 
 ## Circuit Photo
-![](circuit.jpg)
+
+<img src="circuit.jpg" width="200">
 
 ## Schematic
-![](schematic.jpg)
+
+<img src="schematic.jpg" width="200">
 
 ## Overall
 Overall, it was a great learning experience. I learnt a lot about arduino, processing and their effective communication. I also learnt how to solder and had fun while doing so. 
