@@ -30,7 +30,8 @@ This was a frustrating and honestly silly mistake. After hooking on two potentio
 
 #### Soldering 
 This was a very fun part of the project. I attended a soldering session just for knowledge and ended finding an application in my project. I was able to secure two big potentiometers and I needed to solder wires on them. I did not have time to solder them when I was with the professor, so I went after hours to solder by myself. It was not really a problem, just my lack of soldering experience. It made soldering time consuming as I needed some time to find my bearings. I often had to resolder to make sure that it was placed properly. Although, my solder is not the best, it does the job well. Here is an image of my soldering work:
-![](20211207_130742.jpg =100x)
+
+<img src="20211207_130742.jpg" width="200">
 
 Restarting Game
 Sound Smoothing
