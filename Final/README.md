@@ -40,6 +40,8 @@ After the midterm, I was pretty comfortable with setting a restart feature in a 
 This was a problem that was easily resolved. The sound in the game was glitchy and broken. At first I thought the sound file was getting played multiple times and due to this overlap the sound was getting glitchy. I simply added an if command with a song.isPlaying() function and that did the trick.
 
 
+## Clever or Diffcult things
+One clever thing I did was to use larger potentiometers. It allowed for players to actually enjoy the game and play it like a real arcade game, adding up to the nostalgic feeling. Earlier I was thinking of using normal potentiometers and giving screwdrivers to partcipants to control the potentiometers, but this would have been an unpleasant experience.
 
 ## New skills learnt and acquired
 #### Circuitry
